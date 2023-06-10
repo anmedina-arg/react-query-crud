@@ -1,0 +1,47 @@
+.card_container {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0.5rem;
+  max-width: 400px;
+}
+
+.card_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  padding-block: 1rem;
+}
+
+.description {
+  background-color: #616161;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: 300;
+  min-width: 100%;
+  min-height: 150px;
+}
+
+.card_footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.checked_container {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.button {
+  padding: 0.25rem;
+  background-color: #fc4d4d;
+  color: antiquewhite;
+}
