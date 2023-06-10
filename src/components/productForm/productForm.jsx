@@ -23,7 +23,7 @@ function ProductForm() {
     <form onSubmit={handleSubmit} className={style.form_container}>
       <div className={style.label_container}>
         <label htmlFor="name">Name:</label>
-        <input type="text" name="name" id="name" />
+        <input type="text" name="name" id="name" autoComplete="off" />
       </div>
       <div className={style.label_container}>
         <label htmlFor="description">Description:</label>
@@ -32,11 +32,12 @@ function ProductForm() {
           type="text"
           name="description"
           id="description"
+          autoComplete="off"
         />
       </div>
       <div className={style.label_container}>
         <label htmlFor="price">Price:</label>
-        <input type="text" name="price" id="price" />
+        <input type="text" name="price" id="price" autoComplete="off" />
       </div>
       <button type="submit">Add product</button>
     </form>
