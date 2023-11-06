@@ -8,18 +8,39 @@
       "id": 1
     },
     {
-      "name": "mouse",
-      "description": "mouse gamer",
-      "price": "300",
-      "inStock": true,
-      "id": 2
+      "name": "pantufla",
+      "description": "pantufla peluda",
+      "price": "750",
+      "inStock": false,
+      "id": 3
     },
     {
-      "name": "monitor",
-      "description": "monitor XL",
-      "price": "1000",
+      "name": "asteristco",
+      "description": "de cuero",
+      "price": "1",
       "inStock": true,
-      "id": 3
+      "id": 4
+    },
+    {
+      "name": "asd",
+      "description": "asd",
+      "price": "123",
+      "inStock": true,
+      "id": 5
+    },
+    {
+      "name": "asd",
+      "description": "asd",
+      "price": "123",
+      "inStock": true,
+      "id": 6
+    },
+    {
+      "name": "qwe",
+      "description": "asd",
+      "price": "452",
+      "inStock": true,
+      "id": 7
     }
   ]
 }
