@@ -1,46 +1,18 @@
 {
   "products": [
     {
-      "name": "laptop",
-      "description": "laptop gaming",
-      "price": "15000",
+      "name": "computadora",
+      "description": "polenta",
+      "price": "1500",
       "inStock": true,
       "id": 1
     },
     {
-      "name": "pantufla",
-      "description": "pantufla peluda",
-      "price": "750",
-      "inStock": false,
-      "id": 3
-    },
-    {
-      "name": "asteristco",
-      "description": "de cuero",
-      "price": "1",
+      "name": "mouse",
+      "description": "picante",
+      "price": "1500",
       "inStock": true,
-      "id": 4
-    },
-    {
-      "name": "asd",
-      "description": "asd",
-      "price": "123",
-      "inStock": true,
-      "id": 5
-    },
-    {
-      "name": "asd",
-      "description": "asd",
-      "price": "123",
-      "inStock": true,
-      "id": 6
-    },
-    {
-      "name": "qwe",
-      "description": "asd",
-      "price": "452",
-      "inStock": true,
-      "id": 7
+      "id": 2
     }
   ]
 }

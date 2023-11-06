@@ -37,9 +37,28 @@ function Products() {
     return <div>{error.message}</div>;
   }
 
+  const camposDelFormulario = [
+    {
+      name: 'name',
+      type: 'text'
+    },
+    {
+      name: 'description',
+      type: 'text'
+    },
+    {
+      name: 'price',
+      type: 'text'
+    },
+    {
+      name: 'en stock',
+      type: 'checkbox'
+    },
+  ]
+
   return (
     <main>
-      <ProductForm />
+      <ProductForm camposDelFormulario={ camposDelFormulario } />
       <ul className={style.container}>
         {data.map((product) => (
           <ItemProduct
